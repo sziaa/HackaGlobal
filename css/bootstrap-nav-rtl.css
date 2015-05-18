@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+.nav {
+  padding-right: 0;
+}
+
+header ul.navbar-nav li a{
+	font-weight:100;
+}
+
+ul.nav.navbar-nav{
+	text-align:center;
+}
+
+.nav-tabs > li {
+  float: right;
+}
+
+.nav-tabs > li > a {
+  margin-left: 2px;
+}
+
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  right: auto;
+}
+
+.navbar-brands{
+  float:right;
+  margin:-5px 0 0;
+}
+
+.nav-tabs.nav-justified > li > a {
+  margin-left: 0;
+}
+
+.nav-pills > li {
+  float: right;
+}
+
+.nav-pills > li + li {
+  margin-right: 2px;
+}
+
+.nav-stacked > li + li {
+  margin-right: 0;
+}
+
+.nav-justified > .dropdown .dropdown-menu {
+  right: auto;
+}
+
+.nav-tabs-justified > li > a {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-header {
+    float: right;
+  }
+  
+  .navbar-left {
+    margin-left: -15px !important;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+  }
+  
+  .navbar-nav > li {
+    float: right;
+  }
+  
+  .navbar-nav.navbar-right:last-child {
+    margin-left: -15px;
+	margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-form .radio,
+  .navbar-form .checkbox {
+    padding-right: 0;
+  }
+  
+  .navbar-form .radio input[type="radio"],
+  .navbar-form .checkbox input[type="checkbox"] {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-text {
+    float: right;
+  }
+}
+.carousel-inner > .active {
+  right: 0;
+}
+
+.carousel-inner > .next {
+  right: 100%;
+}
+
+.carousel-inner > .prev {
+  right: -100%;
+}
+
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  right: 0;
+}
+
+.carousel-inner > .active.left {
+  left: -100%;
+}
+
+.carousel-inner > .active.right {
+  left: 100%;
+}
+
+.carousel-control {
+  right: 0;
+}
+
+.carousel-indicators {
+  right: 50%;
+  padding-right: 0;
+  margin-right: -30%;
+}
+
+.dropdown-menu{
+	direction:rtl;
+	text-align:center;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    margin-right: -15px;
+  }
+}
+
+.panel{
+	direction:rtl;
+}
+

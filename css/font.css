@@ -1,0 +1,8 @@
+@font-face {
+     font-family: 'B Yekan';
+     src: local('☺'),
+     local('B Yekan'),
+     url('../fonts/B-yekan.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}

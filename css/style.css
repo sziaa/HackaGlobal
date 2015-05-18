@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.clock,nav,.modal{
+	font-family: 'B Yekan' !important;
+}
+.clock{
+	padding-top:30px;
+}
+.row{
+	width:100%;
+}
+.rtl{
+	direction:rtl !important;
+	text-align:right;
+}
+
+#main{
+	background:url(../assets/images/matrix.jpg);
+	background-position:0px 0px;
+	min-height:630px;
+	z-index:-100;
+	padding:0;
+}
+
+#hacka-bg{
+	background:url(../assets/images/111.png) top center no-repeat;
+	background-size:auto 100%;
+	width:100%;
+	min-height:630px;
+	padding:0;
+	margin:0;
+	z-index:1000;
+}
+
+section{
+	padding:50px 0;
+	font-family: 'B Yekan';
+}
+section #title{
+	margin:20px auto;
+	border-bottom:2px solid #F30;
+	width:270px;
+	padding-bottom:10px;
+	
+}
+
+/*ABOUT*/
+#about{
+	background:#FC0;
+}
+#about #title{
+	
+}
+#about h3{
+	padding-right:30px;
+}
+
+/*NEXT EVENT */
+#next-event{
+	background:#EEE;
+}
+#next-event #title{
+	
+}
+
+/*SUPPORT*/
+#support{
+	background:#FC0;
+}
+#support img{
+	margin:0 25px;
+}
+
+/*EVENTS MAIN*/
+#events-main{
+	background:url(../assets/images/startup.png) center;
+	background-position:center 0px;
+	background-size:auto 150%;
+	min-height:350px;
+	z-index:-100;
+	padding:0;
+}
+@media (min-width: 768px) {
+	#events-main{
+		background:url(../assets/images/startup.png) center;
+		background-position:center 0px;
+		background-size:cover;
+		min-height:450px;
+		z-index:-100;
+		padding:0;
+	}
+}
+
+#events .item{
+	border-bottom:1px solid #F63;
+	padding:30px 0;
+}
+
+#getting-started{
+	color:#C00;
+	font-size:24px;
+}
+
+
+
+.styled{
+  margin-bottom: 30px;
+}
+.styled div {
+display: inline-block;
+font-size: 80px;
+font-weight: 900;
+text-align: center;
+margin: 0 1px;
+width: 136px;
+padding: 10px 30px 53px; 
+height: 100px;
+background:rgba(255, 255, 255, 0.0);
+text-shadow: none;
+vertical-align: middle; 
+border-right:1px solid rgba(255, 255, 255, 0.36);
+text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+}
+.styled div:last-child{
+border:none;
+}
+
+
+/*MAP*/
+
+#map {
+  height: 460px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.map-section{
+	padding-bottom:0;
+}
+#map,
+#map *,
+#map *:before,
+#map *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
